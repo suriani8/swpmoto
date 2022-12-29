@@ -83,8 +83,12 @@ msgid "<0>Advanced Mode</0> turns off the 'Confirm' transaction prompt and allow
 msgstr "<0>Chế Độ Nâng Cao</0> tắt lời nhắc giao dịch 'Xác nhận' và cho phép các giao dịch có độ trượt giá cao có thể dẫn đến tỷ giá xấu và mất thanh khoản."
 
 #: src/pages/SwapV2/index.tsx
-msgid "<0>KyberSwap</0> gets you the best token rates"
-msgstr "<0>KyberSwap</0> mang đến tỷ giá Token tốt nhất cho bạn"
+#~ msgid "<0>KyberSwap</0> gets you the best token rates"
+#~ msgstr "<0>KyberSwap</0> mang đến tỷ giá Token tốt nhất cho bạn"
+
+#: src/pages/SwapV2/index.tsx
+msgid "<0>MotoranSwap</0> gets you the best token rates"
+msgstr ""
 
 #: src/components/Tutorial/TutorialSwap/index.tsx
 msgid "<0>Step: {stepNumber}/</0><1>{TOTAL_STEP}</1>"

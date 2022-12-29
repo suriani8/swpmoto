@@ -75,8 +75,12 @@ msgid "<0>Advanced Mode</0> turns off the 'Confirm' transaction prompt and allow
 msgstr "<0>Advanced Mode</0> turns off the 'Confirm' transaction prompt and allows high slippage trades that can result in bad rates and lost funds."
 
 #: src/pages/SwapV2/index.tsx
-msgid "<0>KyberSwap</0> gets you the best token rates"
-msgstr "<0>KyberSwap</0> gets you the best token rates"
+#~ msgid "<0>KyberSwap</0> gets you the best token rates"
+#~ msgstr "<0>KyberSwap</0> gets you the best token rates"
+
+#: src/pages/SwapV2/index.tsx
+msgid "<0>MotoranSwap</0> gets you the best token rates"
+msgstr "<0>MotoranSwap</0> gets you the best token rates"
 
 #: src/components/Tutorial/TutorialSwap/index.tsx
 msgid "<0>Step: {stepNumber}/</0><1>{TOTAL_STEP}</1>"

@@ -83,7 +83,11 @@ msgid "<0>Advanced Mode</0> turns off the 'Confirm' transaction prompt and allow
 msgstr "<0>고급 모드</0> 슬립피지가 높더라도 항상 거래를 허용합니다. 높은 슬립피지로 보다 적은 금액을 교환 받을 위험이 있습니다. "
 
 #: src/pages/SwapV2/index.tsx
-msgid "<0>KyberSwap</0> gets you the best token rates"
+#~ msgid "<0>KyberSwap</0> gets you the best token rates"
+#~ msgstr ""
+
+#: src/pages/SwapV2/index.tsx
+msgid "<0>MotoranSwap</0> gets you the best token rates"
 msgstr ""
 
 #: src/components/Tutorial/TutorialSwap/index.tsx
