@@ -19,7 +19,7 @@ const ModalContentWrapper = styled.div`
   padding: 24px 20px;
   background-color: ${({ theme }) => theme.background};
 `
-
+// eslint-disable-next-line
 const Btn = styled.button`
   outline: none;
   border: none;

@@ -123,8 +123,9 @@ export default function App() {
   const classicClient = NETWORKS_INFO[chainId || ChainId.MAINNET].classicClient
 
   const theme = useTheme()
+  // eslint-disable-next-line
   const isDarkTheme = useIsDarkMode()
-
+  // eslint-disable-next-line
   const { width } = useWindowSize()
   useGlobalMixpanelEvents()
   const { pathname } = window.location

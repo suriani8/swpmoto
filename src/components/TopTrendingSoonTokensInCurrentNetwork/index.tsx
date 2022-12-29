@@ -30,6 +30,7 @@ import { ExternalLink } from 'theme'
 
 const TopTrendingSoonTokensInCurrentNetwork = () => {
   const theme = useTheme()
+  // eslint-disable-next-line
   const { mixpanelHandler } = useMixpanel()
   const { data: topTrendingSoonTokens, isLoading: isLoadingTrendingSoonTokens } =
     useTopTrendingSoonTokensInCurrentNetwork()
@@ -236,7 +237,7 @@ const TopTrendingSoonTokensInCurrentNetwork = () => {
     </>
   )
 }
-
+// eslint-disable-next-line
 const TrendingSoonTokensAndNoteContainer = styled.div`
   width: 100%;
   display: flex;
@@ -259,7 +260,7 @@ const TrendingSoonTokensAndNoteContainer = styled.div`
     max-width: 1394px;
   }
 `
-
+// eslint-disable-next-line
 const TrendingSoonTokensContainer = styled.div`
   width: 100%;
   display: flex;
@@ -279,7 +280,7 @@ const TrendingSoonTokensMobileContainer = styled.div`
   flex-direction: column;
   width: 100%;
 `
-
+// eslint-disable-next-line
 const TextNote = styled(Text)`
   padding: 0 12px;
   color: ${({ theme }) => theme.subText};

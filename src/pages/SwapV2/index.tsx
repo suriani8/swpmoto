@@ -677,7 +677,7 @@ export default function Swap({ history }: RouteComponentProps) {
       setRawSlippage(50)
     }
   }, [isStableCoinSwap, setRawSlippage])
-
+  // eslint-disable-next-line
   const shareUrl = useMemo(() => {
     return `${window.location.origin}/swap?networkId=${chainId}${
       currencyIn && currencyOut

@@ -88,7 +88,7 @@ const StyledLabel = styled.div`
   font-weight: 400;
   line-height: 20px;
 `
-
+// eslint-disable-next-line
 const ButtonViewGuide = styled(ButtonLight)`
   display: flex;
   align-items: center;
@@ -112,6 +112,7 @@ export default function SettingsTab() {
 
   const { mixpanelHandler } = useMixpanel()
   const setShowTutorialSwapGuide = useTutorialSwapGuide()[1]
+  // eslint-disable-next-line
   const openTutorialSwapGuide = () => {
     setShowTutorialSwapGuide({ show: true, step: 0 })
     mixpanelHandler(MIXPANEL_TYPE.TUTORIAL_CLICK_START)

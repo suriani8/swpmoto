@@ -57,25 +57,29 @@ const SettingsPanel: React.FC<Props> = ({ className, onBack, onClickLiquiditySou
   const theme = useTheme()
 
   const { data: topTrendingSoonTokens } = useTopTrendingSoonTokensInCurrentNetwork()
+  // eslint-disable-next-line
   const shouldShowTrendingSoonSetting = topTrendingSoonTokens.length > 0
 
   const { mixpanelHandler } = useMixpanel()
   const isShowTradeRoutes = useShowTradeRoutes()
+  // eslint-disable-next-line
   const isShowTokenInfo = useShowTokenInfo()
 
   const isShowLiveChart = useShowLiveChart()
   const toggleLiveChart = useToggleLiveChart()
   const toggleTradeRoutes = useToggleTradeRoutes()
+  // eslint-disable-next-line
   const toggleTokenInfo = useToggleTokenInfo()
-
+  // eslint-disable-next-line
   const isShowTrendingSoonTokens = useShowTopTrendingSoonTokens()
+  // eslint-disable-next-line
   const toggleTopTrendingTokens = useToggleTopTrendingTokens()
-
+  // eslint-disable-next-line
   const handleToggleLiveChart = () => {
     mixpanelHandler(MIXPANEL_TYPE.LIVE_CHART_ON_OFF, { live_chart_on_or_off: !isShowLiveChart })
     toggleLiveChart()
   }
-
+  // eslint-disable-next-line
   const handleToggleTradeRoute = () => {
     mixpanelHandler(MIXPANEL_TYPE.TRADING_ROUTE_ON_OFF, {
       trading_route_on_or_off: !isShowTradeRoutes,

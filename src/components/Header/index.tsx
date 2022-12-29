@@ -26,6 +26,7 @@ import { ExternalLink } from 'theme/components'
 import Row, { RowFixed } from '../Row'
 import Web3Status from '../Web3Status'
 
+// eslint-disable-next-line
 const VisaSVG = styled(Visa)`
   path {
     fill: ${({ theme }) => theme.text};
@@ -132,21 +133,21 @@ const AccountElement = styled.div<{ active: boolean }>`
   width: 100%;
   cursor: pointer;
 `
-
+// eslint-disable-next-line
 const AnalyticsWrapper = styled.span`
   @media (max-width: 1320px) {
     display: none;
   }
 `
-
+// eslint-disable-next-line
 const DiscoverWrapper = styled.span`
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
     display: none;
   `};
 `
-
+// eslint-disable-next-line
 const CampaignWrapper = styled.span``
-
+// eslint-disable-next-line
 const AboutWrapper = styled.span`
   @media (max-width: 1440px) {
     display: none;
@@ -212,7 +213,7 @@ const StyledNavLink = styled(NavLink).attrs({
     padding: 8px 6px;
   `}
 `
-
+// eslint-disable-next-line
 const StyledNavExternalLink = styled(ExternalLink).attrs({
   activeClassName,
 })`
@@ -248,7 +249,7 @@ const StyledNavExternalLink = styled(ExternalLink).attrs({
       display: none;
   `}
 `
-
+// eslint-disable-next-line
 const YieldMenuWrapper = styled.div`
   ${({ theme }) => theme.mediaWidth.upToExtraSmall`
       display: none;
@@ -333,16 +334,20 @@ const HoverDropdown = styled.div<{ active: boolean }>`
 `
 
 export default function Header() {
+  // eslint-disable-next-line
   const { account, chainId } = useActiveWeb3React()
 
   const isDark = useIsDarkMode()
   const { pathname } = useLocation()
+  // eslint-disable-next-line
   const [isHoverSlide, setIsHoverSlide] = useState(false)
 
   const { width } = useWindowSize()
-
+  // eslint-disable-next-line
   const under369 = width && width < 369
+  // eslint-disable-next-line
   const under500 = width && width < 500
+  // eslint-disable-next-line
   const { mixpanelHandler } = useMixpanel()
   return (
     <HeaderFrame>
