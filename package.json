@@ -156,6 +156,7 @@
     "react-indiana-drag-scroll": "^2.0.1",
     "react-use": "^15.3.4",
     "recharts": "^2.1.13",
+    "source-map-explorer": "^2.5.3",
     "swiper": "^8.0.7",
     "swr": "^1.0.1",
     "ua-parser-js": "^1.0.2",

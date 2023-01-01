@@ -268,7 +268,7 @@ function AboutKyberSwap() {
       {above768 && (
         <Flex alignItems="center" width="fit-content">
           <KyberSwapSlippage>
-            <img src={isDarkMode ? '/logomoto.gif' : '/logomoto.gif'} width="88px" alt="KyberSwap" />
+            <img src={isDarkMode ? '/logomoto.png' : '/logomoto.png'} width="88px" alt="KyberSwap" />
             <Flex justifyContent="center">
               <Text fontWeight="500" fontSize="40px" lineHeight="48px">
                 ~0.1

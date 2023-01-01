@@ -43,7 +43,7 @@ const LocalLoader = ({ fill }: LocalLoaderProps) => {
   return (
     <Wrapper fill={fill}>
       <AnimatedImg>
-        <img src={iseDark ? '/logomoto.gif' : '/logomoto.gif'} alt="loading-icon" />
+        <img src={iseDark ? '/logomoto.png' : '/logomoto.png'} alt="loading-icon" />
       </AnimatedImg>
     </Wrapper>
   )

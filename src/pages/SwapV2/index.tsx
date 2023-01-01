@@ -28,7 +28,7 @@ import { SEOSwap } from 'components/SEO'
 import { SwitchLocaleLink } from 'components/SwitchLocaleLink'
 import TokenWarningModal from 'components/TokenWarningModal'
 import { MouseoverTooltip } from 'components/Tooltip'
-import TopTrendingSoonTokensInCurrentNetwork from 'components/TopTrendingSoonTokensInCurrentNetwork'
+// import TopTrendingSoonTokensInCurrentNetwork from 'components/TopTrendingSoonTokensInCurrentNetwork'
 import TrendingSoonTokenBanner from 'components/TrendingSoonTokenBanner'
 import Tutorial, { TutorialType } from 'components/Tutorial'
 // import TutorialSwap from 'components/Tutorial/TutorialSwap'
@@ -716,7 +716,7 @@ export default function Swap({ history }: RouteComponentProps) {
       />
       <PageWrapper>
         <Banner />
-        <TopTrendingSoonTokensInCurrentNetwork />
+        {/* <TopTrendingSoonTokensInCurrentNetwork /> */}
         <Container>
           <SwapFormWrapper isShowTutorial={isShowTutorial}>
             <RowBetween mb={'16px'}>

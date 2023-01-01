@@ -354,7 +354,7 @@ export default function Header() {
       <HeaderRow>
         <Title to="/swap?referral=0xb66c7c5217583f54f75002a12479844ebd28abda&fee_bip=10">
           <UniIcon>
-            <IconImage src={isDark ? '/logomoto.gif' : '/logomoto.gif'} alt="logo" />
+            <IconImage src={isDark ? '/logomoto.png' : '/logomoto.png'} alt="logo" />
           </UniIcon>
         </Title>
         <HeaderLinks>
